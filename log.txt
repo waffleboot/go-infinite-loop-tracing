@@ -1,0 +1,300 @@
+  1: GoCreate     G0  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 g=1 stack=2 linked GoStart@10 
+  2: GoCreate     G0  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 g=2 stack=3 
+  3: GoWaiting    G2  P0  g=2 
+  4: GoCreate     G0  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 g=3 stack=4 
+  5: GoWaiting    G3  P0  g=3 
+  6: GoCreate     G0  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 g=4 stack=5 
+  7: GoWaiting    G4  P0  g=4 
+  8: GoCreate     G0  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 g=5 stack=6 linked GoStart@17 
+  9: ProcStart    G0  P0  thread=0 
+ 10: GoStart      G1  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:115 g=1 seq=0 linked GoBlockRecv@14 
+ 11: Gomaxprocs   G1  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:1003 procs=1 
+ 12: GoCreate     G1  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:18 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace/trace.go:127 g=6 stack=8 linked GoStart@19 
+ 13: GoCreate     G1  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:21 g=7 stack=10 linked GoStart@15 
+ 14: GoBlockRecv  G1  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:27 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/chan.go:439 linked GoUnblock@290 
+ 15: GoStart      G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 g=7 seq=0 linked GoPreempt@16 
+ 16: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@22 
+ 17: GoStart      G5  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/mfinal.go:161 g=5 seq=0 linked GoBlock@18 
+ 18: GoBlock      G5  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/mfinal.go:175 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:342 
+ 19: GoStart      G6  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace/trace.go:127 g=6 seq=0 linked GoBlock@21 
+ 20: GoSysCall    G6  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace/trace.go:133 -> /usr/local/Cellar/go/1.16.6/libexec/src/syscall/zsyscall_darwin_amd64.go:1734 
+ 21: GoBlock      G6  P0  /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace/trace.go:129 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace.go:411 
+ 22: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@23 
+ 23: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@24 
+ 24: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@25 
+ 25: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@26 
+ 26: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@27 
+ 27: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@28 
+ 28: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@29 
+ 29: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@30 
+ 30: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@31 
+ 31: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@32 
+ 32: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@33 
+ 33: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@34 
+ 34: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@35 
+ 35: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@36 
+ 36: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@37 
+ 37: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@38 
+ 38: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@39 
+ 39: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@40 
+ 40: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@41 
+ 41: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@42 
+ 42: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@43 
+ 43: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@44 
+ 44: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@45 
+ 45: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@46 
+ 46: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@47 
+ 47: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@48 
+ 48: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@49 
+ 49: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@50 
+ 50: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@51 
+ 51: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@52 
+ 52: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@53 
+ 53: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@54 
+ 54: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@55 
+ 55: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@56 
+ 56: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@57 
+ 57: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@58 
+ 58: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@59 
+ 59: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@60 
+ 60: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@61 
+ 61: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@62 
+ 62: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@63 
+ 63: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@64 
+ 64: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@65 
+ 65: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@66 
+ 66: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@67 
+ 67: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@68 
+ 68: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@69 
+ 69: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@70 
+ 70: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@71 
+ 71: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@72 
+ 72: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@73 
+ 73: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@74 
+ 74: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@75 
+ 75: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@76 
+ 76: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@77 
+ 77: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@78 
+ 78: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@79 
+ 79: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@80 
+ 80: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@81 
+ 81: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@82 
+ 82: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@83 
+ 83: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@84 
+ 84: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@85 
+ 85: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@86 
+ 86: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@87 
+ 87: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@88 
+ 88: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@89 
+ 89: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@90 
+ 90: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@91 
+ 91: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@92 
+ 92: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@93 
+ 93: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@94 
+ 94: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@95 
+ 95: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@96 
+ 96: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@97 
+ 97: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@98 
+ 98: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@99 
+ 99: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@100 
+100: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@101 
+101: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@102 
+102: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@103 
+103: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@104 
+104: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@105 
+105: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@106 
+106: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@107 
+107: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@108 
+108: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@109 
+109: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@110 
+110: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@111 
+111: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@112 
+112: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@113 
+113: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@114 
+114: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@115 
+115: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@116 
+116: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@117 
+117: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@118 
+118: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@119 
+119: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@120 
+120: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@121 
+121: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@122 
+122: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@123 
+123: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@124 
+124: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@125 
+125: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@126 
+126: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@127 
+127: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@128 
+128: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@129 
+129: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@130 
+130: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@131 
+131: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@132 
+132: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@133 
+133: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@134 
+134: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@135 
+135: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@136 
+136: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@137 
+137: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@138 
+138: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@139 
+139: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@140 
+140: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@141 
+141: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@142 
+142: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@143 
+143: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@144 
+144: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@145 
+145: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@146 
+146: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@147 
+147: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@148 
+148: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@149 
+149: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@150 
+150: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@151 
+151: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@152 
+152: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@153 
+153: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@154 
+154: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@155 
+155: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@156 
+156: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@157 
+157: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@158 
+158: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@159 
+159: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@160 
+160: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@161 
+161: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@162 
+162: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@163 
+163: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@164 
+164: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@165 
+165: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@166 
+166: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@167 
+167: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@168 
+168: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@169 
+169: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@170 
+170: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@171 
+171: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@172 
+172: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@173 
+173: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@174 
+174: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@175 
+175: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@176 
+176: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@177 
+177: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@178 
+178: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@179 
+179: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@180 
+180: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@181 
+181: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@182 
+182: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@183 
+183: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@184 
+184: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@185 
+185: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@186 
+186: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@187 
+187: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@188 
+188: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@189 
+189: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@190 
+190: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@191 
+191: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@192 
+192: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@193 
+193: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@194 
+194: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@195 
+195: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@196 
+196: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@197 
+197: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@198 
+198: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@199 
+199: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@200 
+200: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@201 
+201: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@202 
+202: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@203 
+203: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@204 
+204: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@205 
+205: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@206 
+206: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@207 
+207: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@208 
+208: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@209 
+209: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@210 
+210: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@211 
+211: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@212 
+212: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@213 
+213: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@214 
+214: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@215 
+215: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@216 
+216: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@217 
+217: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@218 
+218: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@219 
+219: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@220 
+220: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@221 
+221: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@222 
+222: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@223 
+223: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@224 
+224: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@225 
+225: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@226 
+226: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@227 
+227: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@228 
+228: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@229 
+229: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@230 
+230: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@231 
+231: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@232 
+232: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@233 
+233: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@234 
+234: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@235 
+235: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@236 
+236: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@237 
+237: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@238 
+238: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@239 
+239: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@240 
+240: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@241 
+241: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@242 
+242: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@243 
+243: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@244 
+244: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@245 
+245: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@246 
+246: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@247 
+247: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@248 
+248: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@249 
+249: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@250 
+250: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@251 
+251: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@252 
+252: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@253 
+253: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@254 
+254: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@255 
+255: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@256 
+256: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@257 
+257: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@258 
+258: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@259 
+259: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@260 
+260: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@261 
+261: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@262 
+262: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@263 
+263: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@264 
+264: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@265 
+265: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@266 
+266: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@267 
+267: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@268 
+268: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@269 
+269: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@270 
+270: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@271 
+271: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@272 
+272: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@273 
+273: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@274 
+274: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@275 
+275: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@276 
+276: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@277 
+277: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@278 
+278: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@279 
+279: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@280 
+280: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@281 
+281: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@282 
+282: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@283 
+283: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@284 
+284: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@285 
+285: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@286 
+286: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@287 
+287: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:24 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 linked GoStart@288 
+288: GoStart      G7  P0  g=7 seq=0 linked GoPreempt@289 
+289: GoPreempt    G7  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:23 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/preempt_amd64.s:51 
+290: GoUnblock    G0  P0  g=1 seq=0 linked GoStart@291 
+291: GoStart      G1  P0  g=1 seq=0 linked GoSched@292 
+292: GoSched      G1  P0  /Users/yangand/Workspace/go_infinite_loop/main.go:29 -> /usr/local/Cellar/go/1.16.6/libexec/src/runtime/trace.go:1084 
+
+ 1: Exec=64576 SchedWait=832 Block=3020534656 Total=3020609440 runtime.main
+ 2: SchedWait=3020606208 Total=3020606208 
+ 3: SchedWait=3020605728 Total=3020605728 
+ 4: SchedWait=3020603072 Total=3020603072 
+ 5: Exec=480 SchedWait=13974208 Total=3020600384 runtime.runfinq
+ 6: Exec=46336 SchedWait=13957664 Total=3020571648 runtime/trace.Start.func1
+ 7: Exec=3019744544 SchedWait=820704 Total=3020565248 main.main.func1
