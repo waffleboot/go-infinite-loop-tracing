@@ -1073,7 +1073,7 @@ var EventDescriptions = [EvCount]struct {
 	EvFrequency:         {"Frequency", 1005, false, []string{"freq"}, nil},   // in 1.5 format it was {"freq", "unused"}
 	EvStack:             {"Stack", 1005, false, []string{"id", "siz"}, nil},
 	EvGomaxprocs:        {"Gomaxprocs", 1005, true, []string{"procs"}, nil},
-	EvProcStart:         {"ProcStart", 1005, false, []string{"thread"}, nil},
+	EvProcStart:         {"ProcStart", 1005, false, []string{"thread", "reason"}, nil},
 	EvProcStop:          {"ProcStop", 1005, false, []string{}, nil},
 	EvGCStart:           {"GCStart", 1005, true, []string{"seq"}, nil}, // in 1.5 format it was {}
 	EvGCDone:            {"GCDone", 1005, false, []string{}, nil},

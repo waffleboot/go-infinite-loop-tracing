@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"os"
+	"runtime"
 	"runtime/trace"
 	"time"
 )
@@ -25,5 +26,6 @@ func main() {
 		}
 	}()
 	<-time.After(3 * time.Second)
+	runtime.GC()
 	defer trace.Stop()
 }

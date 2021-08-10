@@ -15,7 +15,7 @@ dlv: main
 	GOMAXPROCS=1 ~/go/bin/dlv exec loop
 
 parser: parse.go parser.go order.go goroutines.go
-	go build -o parser $?
+	go build -o $@ $^
 
 #traceGoPreempt
 #goyield_m

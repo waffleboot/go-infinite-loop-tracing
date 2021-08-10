@@ -22,7 +22,14 @@ func run() error {
 	}
 	for i, ev := range res.Events {
 		desc := EventDescriptions[ev.Type]
-		fmt.Printf("%3d: %-12s G%-2d P%-2d ", i+1, desc.Name, ev.G, ev.P)
+		gp := ""
+		if ev.G > 0 {
+			gp = fmt.Sprintf("G%d ", ev.G)
+		}
+		if ev.P > 0 {
+			gp += fmt.Sprintf("P%d ", ev.P)
+		}
+		fmt.Printf("%3d: %-12s%3s", i+1, desc.Name, gp)
 		stk := ev.Stk
 		if len(stk) == 0 {
 			stk = res.Stacks[ev.StkID]
